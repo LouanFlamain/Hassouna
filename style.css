@@ -7,9 +7,10 @@ header{
     height: 100px;
     width: 100%;
     background-color: blueviolet;
-}
-h1{
+    display: flex;
     text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
 p{
     text-align: center;
