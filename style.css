@@ -10,6 +10,20 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.is-hidden{
+    display: none;
+}
+/*.opaque{
+    opacity: 0.5;
+    background-color: black;
+}
+.no-opaque{
+    opacity: 1;
+    background-color: white;
+}*/
+.main{
+    display: flex;
+}
 .portfolio{
     padding: 15px;
     background-color: coral;
@@ -47,4 +61,42 @@ p{
     border: 1px solid coral;
     border-radius: 30px;
     text-align: center;
+}
+.cv{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -45%);
+background-color: coral;
+}
+.container{
+    width: 800px;
+    height: 700px;
+    overflow: scroll;
+}
+figure{
+}
+.cv_image{
+    width: 100%;
+}
+.btn_cv{
+    z-index: 999;
+    padding: 5px;
+}
+.btn_container{
+    display: flex;
+    justify-content: space-between;
+}
+.btn_open_cv{
+    padding: 20px;
+    background-color: coral;
+    width: 100px;
+    border-radius: 20px;
+    margin: 40px auto 0 auto;
+}
+.btn_cv:hover,
+.btn_open_cv:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
