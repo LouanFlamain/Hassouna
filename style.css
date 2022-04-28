@@ -107,6 +107,9 @@ p {
 .link-projet {
   color: black;
 }
+.link-projet:hover {
+  color: white;
+}
 .container-projet {
   display: flex;
   justify-content: space-evenly;
@@ -132,4 +135,9 @@ p {
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 10px;
+}
+.container-projet-color-form:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
 }
