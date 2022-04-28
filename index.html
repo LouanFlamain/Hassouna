@@ -1,49 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Louan Flamain</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="portfolio">
-            <h1>Portfolio</h1>
-        </div>
-        <div class="link">
-            <a target="_blank" title="Lien vers mon Linkedin" href="https://linkedin.com/in/louan-flamain-956251236">Linkedin</a>
-            <a target="_blank" title="Lien vers mon Github" href="https://github.com/LouanFlamain/Projet-Hetic">Github</a>
-            <a target="_blank" href="./projet_paint/index.html">Paint</a>
-            <a href="./Site_anime_API/index.html">API</a>
-        </div>
+      <div class="portfolio">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="link">
+        <a
+          target="_blank"
+          title="Lien vers mon Linkedin"
+          href="https://linkedin.com/in/louan-flamain-956251236"
+          >Linkedin</a
+        >
+        <a
+          target="_blank"
+          title="Lien vers mon Github"
+          href="https://github.com/LouanFlamain/Projet-Hetic"
+          >Github</a
+        >
+      </div>
     </header>
 
     <div class="bordure">
-        <h2>Louan Flamain</h2>
-        <h3>Bachelor développement Web</h3>
-        <p>Etudiant en première année à Hetic</p>
+      <h2>Louan Flamain</h2>
+      <h3>Bachelor développement Web</h3>
+      <p>Etudiant en première année à Hetic</p>
     </div>
     <div class="mon_cv_container">
-        <div class="btn_open_cv">
-            <p>Mon CV</p>
-        </div>
+      <div class="btn_open_cv">
+        <p>Mon CV</p>
+      </div>
     </div>
     <div class="cv is-hidden">
-        <div class="btn_container">
-            <button class="btn_cv">Télecharger le cv</button>
-            <button class="btn_cv btn_close_cv">X</button>
-        </div>
-        <figure class="container">
-            <img class="cv_image" src="./image/cv.png" alt="cv">
-        </figure>
+      <div class="btn_container">
+        <a href="./image/cv.png" download="cv.png"
+          ><button class="btn_cv">Télecharger le cv</button></a
+        >
+        <button class="btn_cv btn_close_cv">X</button>
+      </div>
+      <figure class="container">
+        <img class="cv_image" src="./image/cv.png" alt="cv" />
+      </figure>
     </div>
 
-    <div>
- <!--<a target="_blank" href="./projet_paint/index.html"><img class="projet_image"  src="./image/miniature_paint.png" alt=""></a>-->
+    <div class="container-projet">
+      <div class="container-projet-color">
+        <div class="container-projet-color-form">
+          <a
+            class="link-projet"
+            target="_blank"
+            href="./projet_paint/index.html"
+            >Projet Paint</a
+          >
+        </div>
+        <p>
+          Le projet paint est un projet qui a été réalisé après 1 mois et demi
+          après le début des cours, il consistait à recréer un site dans lesquel
+          nous pouvons générer : des carrés, des ronds, des triangles et du
+          texte.<br />
+          J'ai rajouté des options afin de pouvoir changer :
+        </p>
+        <ul>
+          <li>La taille</li>
+          <li>L'orientation</li>
+          <li>Les couleurs</li>
+          <li>La police d'écriture du texte</li>
+        </ul>
+        <p>Ce projet a atteint ce stade de développement en 3 jours.</p>
+      </div>
+
+      <div class="container-projet-color">
+        <div class="container-projet-color-form">
+          <a
+            class="link-projet"
+            target="_blank"
+            href="./Site_anime_API/index.html"
+            >Projet Api</a
+          >
+        </div>
+        <p>
+          Le projet Api faisant appel à une Api d'animes et permettant de faire
+          une recherche à l'aide de mots clés et d'afficher :
+        </p>
+        <ul>
+          <li>Les images</li>
+          <li>Les synopsis</li>
+          <li>Les liens vers un site fournissant plus d'informations</li>
+        </ul>
+        <p>Ce site a été réalisé en une journée dans le cadre d'un tp.</p>
+      </div>
     </div>
 
     <script src="form.js"></script>
-</body>
+  </body>
 </html>
