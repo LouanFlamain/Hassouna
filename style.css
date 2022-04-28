@@ -110,6 +110,12 @@ p {
 .link-projet:hover {
   color: white;
 }
+.link-scale {
+  transition: 0.5s;
+}
+.link-scale:hover {
+  transform: scale(1.2);
+}
 .container-projet {
   display: flex;
   justify-content: space-evenly;
