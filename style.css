@@ -90,9 +90,10 @@ p {
 .btn_open_cv {
   padding: 20px;
   background-color: coral;
-  width: 100px;
+  width: 102px;
   border-radius: 20px;
   margin: 40px auto 0 auto;
+  border: solid black 2px;
 }
 .btn_cv:hover,
 .btn_open_cv:hover {
@@ -141,6 +142,7 @@ p {
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 10px;
+  border: 2px solid black;
 }
 .container-projet-color-form:hover {
   text-decoration: none;
